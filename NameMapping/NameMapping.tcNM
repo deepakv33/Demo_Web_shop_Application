@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{ED2FF4EF-ECF7-4A5F-B55D-E6B2A98948E6}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{1253DEFD-F259-42D9-BA0E-00F0710A58FA}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{3204E4C7-CA25-4C77-8066-20170FE32108}">
+								<Image FileName="-1531398308" Left="-9" Top="-9" Right="1929" Bottom="1029" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageDemoWebShop" Key="{281AA4B8-5923-4764-B169-D657B1A0A86E}">
+								<Image FileName="-1531398308" Left="0" Top="108" Right="1920" Bottom="1020" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demowebshop.tricentis.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkLogIn" Key="{3A57D889-D07B-4FA5-9CA8-BFBAAA24B6E7}">
+										<Image FileName="-1531398308" Left="1236" Top="196" Right="1289" Bottom="219" />
+										<TypeInfo Item0="{489A2408-FDF6-4CBF-AE48-597C63D0D507}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Log in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;ico-login&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[2]//ul/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="Alert" Key="{BEDEA737-64F8-4CBE-ACD7-9ACB0695105F}">
+										<Image FileName="560727456" Left="671" Top="97" Right="1249" Bottom="492" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Alert" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="buttonOk" Key="{1D91B910-9702-4925-B205-0A4FD3542B28}">
+												<Image FileName="560727456" Left="1135" Top="407" Right="1215" Bottom="455" />
+												<TypeInfo Item0="{5D195AE1-F01C-4185-94DF-4F6C48E3C1E7}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="OK" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="textboxSmallSearchterms" Key="{A57B7C1D-4649-4155-82FF-22A5D50944D5}">
+										<Image FileName="451114089" Left="1056" Top="240" Right="1446" Bottom="269" />
+										<TypeInfo Item0="{D19E13B6-EB22-4457-99EC-7DD55F19443E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#small-searchterms" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;q&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Search store&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;search-box-text&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFiction" Key="{EB6A3890-80E5-4282-9C05-532FCA25BE29}">
+										<Image FileName="-1494347074" Left="1056" Top="269" Right="1446" Bottom="335" />
+										<Selectors>
+											<Selector>
+												<Value Value="ul[contains(., &apos;Fiction&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="ul[contains(@class, &apos;ui-autocomplete&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkFiction" Key="{4F3D6950-FF0E-410B-88BD-1E96AD4725FB}">
+										<Image FileName="-1494347074" Left="1059" Top="271" Right="1444" Bottom="303" />
+										<TypeInfo Item0="{489A2408-FDF6-4CBF-AE48-597C63D0D507}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li/a[contains(@class, &apos;ui-corner-all&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLogin" Key="{E07FF8A0-2801-49AE-B651-C07AE2765612}">
+								<Image FileName="-1531398308" Left="0" Top="108" Right="1920" Bottom="1020" />
+								<TypeInfo Item0="{77E5ABD7-05AA-487A-B11F-4FE876099D62}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demowebshop.tricentis.com/login" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textboxEmail" Key="{D7A1E968-CCC2-4C3D-8F37-00B5CCD5FED1}">
+										<Image FileName="292721154" Left="1238" Top="508" Right="1458" Bottom="533" />
+										<TypeInfo Item0="{D19E13B6-EB22-4457-99EC-7DD55F19443E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Email:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#Email" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;Email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="checkboxRememberMe" Key="{F7C42A16-A3B0-46D4-9F15-31A2C42840CF}">
+										<Image FileName="-812365570" Left="1102" Top="610" Right="1118" Bottom="626" />
+										<TypeInfo Item0="{B1E6A1F5-C64D-444A-9734-FE9DDD266A67}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Remember me?&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#RememberMe" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonLogIn" Key="{37EEF093-0338-4B2A-BAAF-E36FD27CF6E0}">
+										<Image FileName="588859024" Left="1403" Top="703" Right="1468" Bottom="730" />
+										<TypeInfo Item0="{06DD6DAF-4FB9-4D52-8B46-2DFA82A48406}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Log in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//form//input[contains(@class, &apos;button-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageFiction" Key="{7E5999A8-66BD-4E3E-B6EB-96E2F6658408}">
+								<Image FileName="-1531398308" Left="0" Top="108" Right="1920" Bottom="1020" />
+								<TypeInfo Item0="{77E5ABD7-05AA-487A-B11F-4FE876099D62}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demowebshop.tricentis.com/fiction" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeRamKumar33GmailCom" Key="{C978DDA7-9B52-42EB-874B-381CB7F62829}">
+										<Image FileName="-2082424800" Left="0" Top="146" Right="1899" Bottom="2163" />
+										<TypeInfo Item0="{489A2408-FDF6-4CBF-AE48-597C63D0D507}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//body[contains(., &apos;ram.kumar33@gmail.com&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formProductDetailsForm" Key="{8F7D938E-3D1E-495A-8539-F0B1A15CC5D2}">
+										<Image FileName="-189471218" Left="644" Top="314" Right="1505" Bottom="1618" />
+										<Selectors>
+											<Selector>
+												<Value Value="#product-details-form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Fiction&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;fiction&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[4]/div/div/div/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAddToCart" Key="{6727ECC7-FFFC-46FA-B9DE-03F715A8FB6B}">
+										<Image FileName="-189471218" Left="1209" Top="576" Right="1337" Bottom="611" />
+										<TypeInfo Item0="{06DD6DAF-4FB9-4D52-8B46-2DFA82A48406}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#add-to-cart-button-45" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div//input[@value=&apos;Add to cart&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div//div[6]//input[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//form//input[contains(@class, &apos;button-1&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelFiction" Key="{926D5C99-5E4F-4670-93D7-B0C5600C40A8}">
+										<Image FileName="-182260167" Left="644" Top="464" Right="1505" Bottom="1768" />
+										<TypeInfo Item0="{489A2408-FDF6-4CBF-AE48-597C63D0D507}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@id=&apos;product-details-form&apos;]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFiction" Key="{771B2335-E375-43E0-AB7A-500EB6313370}">
+										<Image FileName="1930302132" Left="1073" Top="397" Right="1486" Bottom="420" />
+										<TypeInfo Item0="{489A2408-FDF6-4CBF-AE48-597C63D0D507}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[contains(text(), &apos;Fiction&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;product-details-form&apos;]//h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonGoToCart" Key="{729C9498-71DE-4F5E-BCC6-A474C3DAA945}">
+										<Image FileName="-418239633" Left="1424" Top="387" Right="1514" Bottom="414" />
+										<TypeInfo Item0="{06DD6DAF-4FB9-4D52-8B46-2DFA82A48406}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Go to cart&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//input[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[2]//input[contains(@class, &apos;button-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;flyout-cart&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageCart" Key="{B67D54E9-318E-419E-A451-C6A448AD8502}">
+								<Image FileName="892072310" Left="0" Top="108" Right="1920" Bottom="1020" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demowebshop.tricentis.com/cart" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="buttonGoToCart" Key="{84D0A806-A39C-4EF6-A18A-5DB2756774DE}">
+										<Image FileName="892072310" Left="1424" Top="387" Right="1514" Bottom="414" />
+										<TypeInfo Item0="{06DD6DAF-4FB9-4D52-8B46-2DFA82A48406}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Go to cart&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//input[contains(@class, &apos;button-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;flyout-cart&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCheckout" Key="{4DC0D7F1-CB5D-4858-A673-1E5730B38955}">
+										<Image FileName="-327175896" Left="1362" Top="865" Right="1512" Bottom="905" />
+										<TypeInfo Item0="{06DD6DAF-4FB9-4D52-8B46-2DFA82A48406}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#checkout" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@name=&apos;checkout&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Checkout&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@value=&apos;checkout&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;button-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="checkboxTermsofservice" Key="{45B0067D-4305-4294-9D87-09D658815379}">
+										<Image FileName="-1161516121" Left="1130" Top="805" Right="1146" Bottom="821" />
+										<TypeInfo Item0="{B1E6A1F5-C64D-444A-9734-FE9DDD266A67}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#termsofservice" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;termsofservice&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//input[@type=&apos;checkbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonClose" Key="{5E96E5CB-D729-421A-A91D-18A36FDFDA67}">
+										<Image FileName="195550300" Left="1105" Top="482" Right="1131" Bottom="507" />
+										<TypeInfo Item0="{06DD6DAF-4FB9-4D52-8B46-2DFA82A48406}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;close&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@title=&apos;close&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;ui-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelIAgreeWithTheTermsOf" Key="{04EDB8CF-D27F-468F-B422-2E1C8F985CCE}">
+										<Image FileName="-894690402" Left="1112" Top="739" Right="1512" Bottom="803" />
+										<TypeInfo Item0="{489A2408-FDF6-4CBF-AE48-597C63D0D507}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;terms-of-service&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageOnepagecheckout" Key="{A2DA7DAC-5013-4BDE-915C-322777BAE22E}">
+								<TypeInfo Item0="{77E5ABD7-05AA-487A-B11F-4FE876099D62}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demowebshop.tricentis.com/onepagecheckout" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeCheckoutSteps" Key="{DF40559C-CA16-4B6F-B697-50932D4F3017}">
+										<Image FileName="1580402653" Left="381" Top="448" Right="1519" Bottom="798" />
+										<Selectors>
+											<Selector>
+												<Value Value="#checkout-steps" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol[contains(., &apos;Billing address&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol[contains(@class, &apos;opc&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonContinue" Key="{4990C913-498B-4795-A7FA-E917C3FE6307}">
+										<Image FileName="1580402653" Left="419" Top="589" Right="503" Bottom="616" />
+										<TypeInfo Item0="{06DD6DAF-4FB9-4D52-8B46-2DFA82A48406}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-billing&apos;]//input[@value=&apos;Continue&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-billing&apos;]//input[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-billing&apos;]//input[contains(@class, &apos;button-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;billing-buttons-container&apos;]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formCoShippingForm" Key="{6142BB3A-AF3C-4BA3-90AC-C5BCB6D5AAA2}">
+										<Image FileName="1477012552" Left="419" Top="534" Right="1480" Bottom="705" />
+										<Selectors>
+											<Selector>
+												<Value Value="#co-shipping-form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Pick up your items at the store (put your store address here)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;checkout-step-shipping&apos;]/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//ol/li[@id=&apos;opc-shipping&apos;]//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="checkboxInStorePickup" Key="{605D7D35-E489-4369-9C42-EC2001850172}">
+										<Image FileName="403561836" Left="438" Top="625" Right="454" Bottom="641" />
+										<TypeInfo Item0="{B1E6A1F5-C64D-444A-9734-FE9DDD266A67}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;In-Store Pickup&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#PickUpInStore" />
+											</Selector>
+											<Selector>
+												<Value Value="//p/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonContinue2" Key="{5C693416-34EF-444F-967F-6280D7567A8B}">
+										<Image FileName="1965613269" Left="419" Top="740" Right="503" Bottom="767" />
+										<TypeInfo Item0="{06DD6DAF-4FB9-4D52-8B46-2DFA82A48406}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-shipping&apos;]//input[@value=&apos;Continue&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-shipping&apos;]//input[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-shipping&apos;]//input[contains(@class, &apos;button-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;shipping-buttons-container&apos;]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonContinue3" Key="{56F36DCA-E22D-405C-8B7F-8CDB3B20A0D2}">
+										<Image FileName="462220807" Left="419" Top="985" Right="503" Bottom="1012" />
+										<TypeInfo Item0="{06DD6DAF-4FB9-4D52-8B46-2DFA82A48406}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-payment_method&apos;]//input[@value=&apos;Continue&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-payment_method&apos;]//input[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-payment_method&apos;]//input[contains(@class, &apos;button-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;payment-method-buttons-container&apos;]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonContinue4" Key="{8901AEAD-34F5-4C8C-9606-DB92A64C3B8C}">
+										<Image FileName="-1294399785" Left="419" Top="813" Right="503" Bottom="840" />
+										<TypeInfo Item0="{06DD6DAF-4FB9-4D52-8B46-2DFA82A48406}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-payment_info&apos;]//input[@value=&apos;Continue&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-payment_info&apos;]//input[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-payment_info&apos;]//input[contains(@class, &apos;button-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;payment-info-buttons-container&apos;]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-payment_info&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOpcPaymentInfo" Key="{7A4B2A1B-F3E0-4D7C-9BA6-5D3AC4AECA1D}">
+										<Image FileName="1452300767" Left="381" Top="581" Right="1519" Bottom="615" />
+										<Selectors>
+											<Selector>
+												<Value Value="#opc-payment_info" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Payment information&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel5" Key="{ED176325-CC40-4E6B-B614-482C90337558}">
+										<Image FileName="1452300767" Left="381" Top="581" Right="1519" Bottom="615" />
+										<TypeInfo Item0="{489A2408-FDF6-4CBF-AE48-597C63D0D507}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[@id=&apos;opc-payment_info&apos;]/div[contains(@class, &apos;step-title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;opc-payment_info&apos;]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRamKumar33GmailCom" Key="{9E3CDA4D-982E-401A-A136-773FB57EB6D4}">
+										<Image FileName="2032947934" Left="0" Top="146" Right="1899" Bottom="1244" />
+										<TypeInfo Item0="{489A2408-FDF6-4CBF-AE48-597C63D0D507}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//body[contains(., &apos;ram.kumar33@gmail.com&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelCheckout" Key="{C196B5F7-25DE-44A4-973B-E7C992326468}">
+										<Image FileName="929834249" Left="368" Top="121" Right="1531" Bottom="646" />
+										<TypeInfo Item0="{489A2408-FDF6-4CBF-AE48-597C63D0D507}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;center-1&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonConfirm" Key="{16C0C025-5396-4293-86F3-739D3E409F86}">
+										<Image FileName="-2114838694" Left="419" Top="588" Right="496" Bottom="615" />
+										<TypeInfo Item0="{06DD6DAF-4FB9-4D52-8B46-2DFA82A48406}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Confirm&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-confirm_order&apos;]//input[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-confirm_order&apos;]//input[contains(@class, &apos;button-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;confirm-order-buttons-container&apos;]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-confirm_order&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formCoShippingMethodForm" Key="{99FA6350-F01D-4BF7-ADB6-AA9AE82643C0}">
+										<Image FileName="-1438155238" Left="419" Top="567" Right="1480" Bottom="856" />
+										<Selectors>
+											<Selector>
+												<Value Value="#co-shipping-method-form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Ground (10.00)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;checkout-step-shipping-method&apos;]/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//ol/li[@id=&apos;opc-shipping_method&apos;]//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonContinue5" Key="{346F9121-8660-4A67-AEF0-F127489D1A3A}">
+										<Image FileName="-1438155238" Left="419" Top="830" Right="503" Bottom="857" />
+										<TypeInfo Item0="{06DD6DAF-4FB9-4D52-8B46-2DFA82A48406}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-shipping_method&apos;]//form//input[@value=&apos;Continue&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-shipping_method&apos;]//form//input[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-shipping_method&apos;]//form//input[contains(@class, &apos;button-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;shipping-method-buttons-container&apos;]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageDemowebshopTricentisComCheck" Key="{11FD4E9F-0FF4-4E7F-B3B1-1112A285BA4B}">
+								<Image FileName="-1839266660" Left="0" Top="108" Right="1920" Bottom="1020" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demowebshop.tricentis.com/checkout/completed/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkLogOut" Key="{8DE367AD-424A-48A1-98D6-FE2741A81E2C}">
+										<Image FileName="-1839266660" Left="1227" Top="196" Right="1290" Bottom="219" />
+										<TypeInfo Item0="{489A2408-FDF6-4CBF-AE48-597C63D0D507}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Log out&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;ico-logout&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[2]//ul/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeYourOrderHasBeenSuccessf" Key="{CDD59EDF-127D-4C73-8F31-6A8F165180AC}">
+										<Image FileName="91775321" Left="403" Top="483" Right="726" Bottom="500" />
+										<TypeInfo Item0="{E2C1B155-699E-485E-BF97-EFCAE3FA10F4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//strong[.=&apos;Your order has been successfully processed!&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//strong" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeYourOrderHasBeenSuccessf2" Key="{5162BA8F-81CB-427F-B6BD-61D51812D5CD}">
+										<Image FileName="1428771735" Left="403" Top="483" Right="726" Bottom="500" />
+										<TypeInfo Item0="{E2C1B155-699E-485E-BF97-EFCAE3FA10F4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//strong[.=&apos;Your order has been successfully processed!&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//strong" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="ms_teams" Key="{240DA498-B3E7-4326-AF99-0168E8CC69E7}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="ms-teams" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndTeamsWebView" Key="{14AEDA36-330B-40AD-8095-CD6E514601B3}">
+								<Image FileName="-567833988" Left="-9" Top="-9" Right="1929" Bottom="1029" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="TeamsWebView" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Chat | Deepak Vishwakarma (You) | Microsoft Teams" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_WidgetWin_0" Key="{CF03519E-E594-4E2C-85CA-B6069955AA3F}">
+										<Image FileName="-567833988" Left="0" Top="0" Right="1920" Bottom="1020" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_WidgetWin_0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Chrome_WidgetWin_0" Key="{CF3286E9-561C-42FA-939A-4FED07D3F38A}">
+												<Image FileName="-567833988" Left="1750" Top="16" Right="1920" Bottom="49" />
+												<TypeInfo Item0="{5168E873-AD85-4C5F-ADAF-568BCE1E20A8}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="Chrome_WidgetWin_0" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="7" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{62E21504-0602-4D96-8DBE-65402CA85CEE}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{65E0D65B-E9F5-4B0F-89E1-4309C36CF8CD}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{67DCB9C8-189D-4CF8-AF17-799D9AE14123}">
+										<TypeInfo Item0="{5168E873-AD85-4C5F-ADAF-568BCE1E20A8}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{1253DEFD-F259-42D9-BA0E-00F0710A58FA}">
+			<Child Name="BrowserWindow" Owner="{3204E4C7-CA25-4C77-8066-20170FE32108}" />
+			<Child Name="pageDemoWebShop" Owner="{281AA4B8-5923-4764-B169-D657B1A0A86E}">
+				<Child Name="linkLogIn" Owner="{3A57D889-D07B-4FA5-9CA8-BFBAAA24B6E7}" />
+				<Child Name="Alert" Owner="{BEDEA737-64F8-4CBE-ACD7-9ACB0695105F}">
+					<Child Name="buttonOk" Owner="{1D91B910-9702-4925-B205-0A4FD3542B28}" />
+				</Child>
+				<Child Name="textboxSmallSearchterms" Owner="{A57B7C1D-4649-4155-82FF-22A5D50944D5}" />
+				<Child Name="textnodeFiction" Owner="{EB6A3890-80E5-4282-9C05-532FCA25BE29}">
+					<Child Name="linkFiction" Owner="{4F3D6950-FF0E-410B-88BD-1E96AD4725FB}" />
+				</Child>
+			</Child>
+			<Child Name="pageLogin" Owner="{E07FF8A0-2801-49AE-B651-C07AE2765612}">
+				<Child Name="textboxEmail" Owner="{D7A1E968-CCC2-4C3D-8F37-00B5CCD5FED1}" />
+				<Child Name="checkboxRememberMe" Owner="{F7C42A16-A3B0-46D4-9F15-31A2C42840CF}" />
+				<Child Name="submitbuttonLogIn" Owner="{37EEF093-0338-4B2A-BAAF-E36FD27CF6E0}" />
+			</Child>
+			<Child Name="pageFiction" Owner="{7E5999A8-66BD-4E3E-B6EB-96E2F6658408}">
+				<Child Name="textnodeRamKumar33GmailCom" Owner="{C978DDA7-9B52-42EB-874B-381CB7F62829}" />
+				<Child Name="formProductDetailsForm" Owner="{8F7D938E-3D1E-495A-8539-F0B1A15CC5D2}">
+					<Child Name="buttonAddToCart" Owner="{6727ECC7-FFFC-46FA-B9DE-03F715A8FB6B}" />
+					<Child Name="panelFiction" Owner="{926D5C99-5E4F-4670-93D7-B0C5600C40A8}" />
+					<Child Name="textnodeFiction" Owner="{771B2335-E375-43E0-AB7A-500EB6313370}" />
+				</Child>
+				<Child Name="buttonGoToCart" Owner="{729C9498-71DE-4F5E-BCC6-A474C3DAA945}" />
+			</Child>
+			<Child Name="pageCart" Owner="{B67D54E9-318E-419E-A451-C6A448AD8502}">
+				<Child Name="buttonGoToCart" Owner="{84D0A806-A39C-4EF6-A18A-5DB2756774DE}" />
+				<Child Name="buttonCheckout" Owner="{4DC0D7F1-CB5D-4858-A673-1E5730B38955}" />
+				<Child Name="checkboxTermsofservice" Owner="{45B0067D-4305-4294-9D87-09D658815379}" />
+				<Child Name="buttonClose" Owner="{5E96E5CB-D729-421A-A91D-18A36FDFDA67}" />
+				<Child Name="panelIAgreeWithTheTermsOf" Owner="{04EDB8CF-D27F-468F-B422-2E1C8F985CCE}" />
+			</Child>
+			<Child Name="pageOnepagecheckout" Owner="{A2DA7DAC-5013-4BDE-915C-322777BAE22E}">
+				<Child Name="textnodeCheckoutSteps" Owner="{DF40559C-CA16-4B6F-B697-50932D4F3017}">
+					<Child Name="buttonContinue" Owner="{4990C913-498B-4795-A7FA-E917C3FE6307}" />
+					<Child Name="formCoShippingForm" Owner="{6142BB3A-AF3C-4BA3-90AC-C5BCB6D5AAA2}">
+						<Child Name="checkboxInStorePickup" Owner="{605D7D35-E489-4369-9C42-EC2001850172}" />
+					</Child>
+					<Child Name="buttonContinue2" Owner="{5C693416-34EF-444F-967F-6280D7567A8B}" />
+					<Child Name="buttonContinue3" Owner="{56F36DCA-E22D-405C-8B7F-8CDB3B20A0D2}" />
+					<Child Name="buttonContinue4" Owner="{8901AEAD-34F5-4C8C-9606-DB92A64C3B8C}" />
+					<Child Name="textnodeOpcPaymentInfo" Owner="{7A4B2A1B-F3E0-4D7C-9BA6-5D3AC4AECA1D}">
+						<Child Name="panel5" Owner="{ED176325-CC40-4E6B-B614-482C90337558}" />
+					</Child>
+					<Child Name="buttonConfirm" Owner="{16C0C025-5396-4293-86F3-739D3E409F86}" />
+					<Child Name="formCoShippingMethodForm" Owner="{99FA6350-F01D-4BF7-ADB6-AA9AE82643C0}">
+						<Child Name="buttonContinue5" Owner="{346F9121-8660-4A67-AEF0-F127489D1A3A}" />
+					</Child>
+				</Child>
+				<Child Name="textnodeRamKumar33GmailCom" Owner="{9E3CDA4D-982E-401A-A136-773FB57EB6D4}" />
+				<Child Name="panelCheckout" Owner="{C196B5F7-25DE-44A4-973B-E7C992326468}" />
+			</Child>
+			<Child Name="pageDemowebshopTricentisComCheck" Owner="{11FD4E9F-0FF4-4E7F-B3B1-1112A285BA4B}">
+				<Child Name="linkLogOut" Owner="{8DE367AD-424A-48A1-98D6-FE2741A81E2C}" />
+				<Child Name="textnodeYourOrderHasBeenSuccessf" Owner="{CDD59EDF-127D-4C73-8F31-6A8F165180AC}" />
+				<Child Name="textnodeYourOrderHasBeenSuccessf2" Owner="{5162BA8F-81CB-427F-B6BD-61D51812D5CD}" />
+			</Child>
+		</Child>
+		<Child Name="ms_teams" Owner="{240DA498-B3E7-4326-AF99-0168E8CC69E7}">
+			<Child Name="wndTeamsWebView" Owner="{14AEDA36-330B-40AD-8095-CD6E514601B3}">
+				<Child Name="Chrome_WidgetWin_0" Owner="{CF03519E-E594-4E2C-85CA-B6069955AA3F}">
+					<Child Name="Chrome_WidgetWin_0" Owner="{CF3286E9-561C-42FA-939A-4FED07D3F38A}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{62E21504-0602-4D96-8DBE-65402CA85CEE}">
+			<Child Name="wndShell_TrayWnd" Owner="{65E0D65B-E9F5-4B0F-89E1-4309C36CF8CD}">
+				<Child Name="DesktopWindowXamlSource" Owner="{67DCB9C8-189D-4CF8-AF17-799D9AE14123}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

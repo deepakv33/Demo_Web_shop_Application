@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="TC_login" key="{688FC908-E280-4B09-9CBF-AE54F64D6A60}" path="TC_login.tcKDTest" />
+		<child name="TC_Search_Product" key="{DB9D3A09-4065-402F-A416-24C61243EF0C}" path="TC_Search_Product.tcKDTest" />
+		<child name="TC_Add_To_Cart" key="{4A156E25-CAC7-458A-BAE7-9BCA486B0079}" path="TC_Add_To_Cart.tcKDTest" />
+		<child name="TC_Go_To_Cart" key="{CF6CC8F6-4655-45C8-BB80-BDFD150944DF}" path="TC_Go_To_Cart.tcKDTest" />
+		<child name="TC_Checkout" key="{E1F1D154-BD44-4DF3-B296-F1B0B53DB708}" path="TC_Checkout.tcKDTest" />
+		<child name="TC_Logout" key="{FD5B9F5F-54AC-4946-A4FE-6138E6C6DABA}" path="TC_Logout.tcKDTest" />
+		<child name="TC_Checkout_Success" key="{BE05F9CA-70B8-4652-9DA7-1EF86C704F6F}" path="TC_Checkout_Success.tcKDTest" />
+	</children>
+</Root>
